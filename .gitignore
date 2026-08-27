@@ -1,0 +1,59 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+**/sa_config/google_service_account.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Output and temp files
+**/output/
+**/_config_*.yaml
+output/
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+server.log
+
+# Freebuff local state
+.freebuff/
+
+# Input files
+input/*.xlsx
+input/*.csv
+
+# Node
+node_modules/
+
+# Misc
+.pytest_cache/
+.coverage
+htmlcov/
